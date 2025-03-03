@@ -1,0 +1,20 @@
+[project]
+name = "data-engineering-zoomcamp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "duckdb>=1.2.0",
+    "pandas>=2.2.3",
+    "polars>=1.23.0",
+    "psycopg2-binary>=2.9.10",
+    "pyarrow>=19.0.1",
+    "sqlalchemy>=2.0.38",
+    "sqlmodel>=0.0.23",
+]
+
+[dependency-groups]
+dev = [
+  "marimo",
+]
